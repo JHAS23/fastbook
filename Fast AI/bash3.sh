@@ -1,0 +1,1 @@
+kill $(ps aux | grep './ngrok' | awk '{print $2}')
