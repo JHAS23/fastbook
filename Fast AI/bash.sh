@@ -1,5 +1,5 @@
 echo Setting up server...
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -q
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs -q
 pip install jupyter jupyterlab --upgrade -q
 pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install -q

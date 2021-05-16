@@ -1,0 +1,12 @@
+import os
+
+bear_types = 'grizzly','black','teddy'
+path = Path('bears')
+
+for o in bear_types:
+    dest = (path/o)
+    entries = os.listdir(dest)
+    for entry in entries:
+        if not (entry.endswith('jpg') or entry.endswith('png') or entry.endswith('jpeg')):
+            os.remove(dest/entry)
+        
