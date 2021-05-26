@@ -1,0 +1,11 @@
+check out - No Free Lunch Theorem, curse of dimentionality
+
+terms
+
+extra tree regressor (sample some features for split making it faster).
+
+functions
+set_rf_samples()
+reset_rf_samples()
+%prun - to check which line or code takes most time !
+parallel_trees - scikit learn funtion to execute trees in parallel
